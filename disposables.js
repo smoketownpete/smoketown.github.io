@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch("https://raw.githubusercontent.com/smoketownpete/smoketown.github.io/refs/heads/main/brands.json")
         .then(response => response.json())
         .then(data => {
+            hidePrint(1);
             let brandDD = document.getElementById("distinct_brands");
             data.forEach(element => {
-                console.log(element['brand']);
+   
                 let option = document.createElement("option");
                 option.value = element['brand'];
                 option.textContent = element['brand'];
@@ -19,18 +20,21 @@ function selectedBrand(event) {
 
     let currentSelected = event.target.value;
     let modelDD = document.getElementById("distinct_model");
+
+    const ul = document.getElementById("flavorList");
+    while (ul.firstChild) {
+        ul.removeChild(ul.firstChild);
+    }
+
+
+
     fetch("https://raw.githubusercontent.com/smoketownpete/smoketown.github.io/refs/heads/main/models.json")
 
         .then(response => response.json())
         .then(
             data => {
-
-
-                let tbody = document.getElementById("flavorTableBody");
-                if(tbody){
-                    tbody.remove();
-                }
-
+                hidePrint(1);
+                let productTitle = document.getElementById("productName").innerHTML = ""
                 while (modelDD.options.length > 0) {
                     modelDD.remove(0);
 
@@ -56,35 +60,51 @@ function selectedBrand(event) {
 }
 
 
-function selectedModel(event){
-
-                    let tbody = document.getElementById("flavorTableBody");
-                if(tbody){
-                    tbody.remove();
-                }
-
+function selectedModel(event) {
+    let selectedBrand = document.getElementById("distinct_brands");
+    let productTitle = document.getElementById("productName");
     let currentSelected = event.target.value;
-    let table = document.getElementById("flavorTable");
-    let tableBody = document.createElement("tbody");
-    let menthol = [];
     let count = 0;
-    tableBody.id = "flavorTableBody"
-    table.append(tableBody);
 
 
     fetch("https://raw.githubusercontent.com/smoketownpete/smoketownpete.github.io/refs/heads/main/flavors.json")
-    .then(response => response.json())
-    .then(data=>{
-       
-        data.forEach(element =>{
-            if(element.model == currentSelected){
-                let tableRow = tableBody.insertRow(count);
-                let newData = tableRow.insertCell();
-                
-                newData.textContent = element.flavor;
+        .then(response => response.json())
+        .then(data => {
+            
+                hidePrint(2);
+            productTitle.innerHTML = selectedBrand.value +" "+currentSelected
 
-                count = count+1
+            const ul = document.getElementById("flavorList");
+            while (ul.firstChild) {
+                ul.removeChild(ul.firstChild);
             }
-        });
-    })
+
+
+
+            let flavorList = document.getElementById("flavorList");
+            data.forEach(element => {
+                if (element.model == currentSelected) {
+                    let flavorEntery = document.createElement("li");
+                    flavorEntery.textContent = element.flavor;
+                    flavorList.appendChild(flavorEntery)
+                }
+            });
+        })
+}
+
+function hidePrint(x){
+    let btnViz = "";
+    if (x ===1){
+        btnViz = "hidden";
+    }
+    else{
+        btnVis = "visible";
+    }
+    let printArea = document.getElementById("printBTN");
+    printArea.style.visibility = btnViz;
+}
+
+
+function printSection() {
+  window.print();
 }

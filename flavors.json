@@ -29,78 +29,6 @@
     },
     {
         "model": "PULSE",
-        "flavor": "Sour Cranapple"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Sour Blue Dust"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Sour Watermelon Drop"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Tropical Rainbow Blast"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Meta Moon"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Cherry Bomb"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Omg B-Pop"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "California Cherry"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Sour Apple Blow Pop"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Pink Limonade"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Crazy Melon"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Dragon Melon"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Grape B-Pop"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Strawberry Mango"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Mexico Mango"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Berry Bliss"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Black Cherry"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Strawberry Banana"
-    },
-    {
-        "model": "PULSE",
         "flavor": "Sour Apple Ice"
     },
     {
@@ -146,6 +74,78 @@
     {
         "model": "PULSE",
         "flavor": "Cool Mintz"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Grape B-Pop"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Strawberry Mango"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Mexico Mango"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Berry Bliss"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Black Cherry"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Strawberry Banana"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Sour Cranapple"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Sour Blue Dust"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Sour Watermelon Drop"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Tropical Rainbow Blast"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Meta Moon"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Cherry Bomb"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Omg B-Pop"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "California Cherry"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Sour Apple Blow Pop"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Pink Limonade"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Crazy Melon"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Dragon Melon"
     },
     {
         "model": "PULSE",

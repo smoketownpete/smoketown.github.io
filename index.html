@@ -12,23 +12,26 @@
 <body>
   <div class="container">
     <div class="DropDowns">
-      
-      <select name="brands" id="distinct_brands" onchange="selectedBrand(event)">
+
+      <select name="brands" class="selectdd" id="distinct_brands" onchange="selectedBrand(event)">
         <option disabled selected value> -- select an option -- </option>
       </select>
-      <select name="models" id="distinct_model" onchange="selectedModel(event)">
+      <select name="models" class="selectdd" id="distinct_model" onchange="selectedModel(event)">
         <option disabled selected value> -- select an option -- </option>
       </select>
     </div>
-
-
+    <div id="tableDiv">
+      <table id="flavorTable">
+        
+      </table>
+    </div>
   </div>
 
 
 
 
 
-<script src="disposables.js"></script>
+  <script src="disposables.js"></script>
 </body>
 
 </html>

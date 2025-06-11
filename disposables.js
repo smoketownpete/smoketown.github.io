@@ -25,6 +25,12 @@ function selectedBrand(event) {
         .then(
             data => {
 
+
+                let tbody = document.getElementById("flavorTableBody");
+                if(tbody){
+                    tbody.remove();
+                }
+
                 while (modelDD.options.length > 0) {
                     modelDD.remove(0);
 
@@ -47,4 +53,38 @@ function selectedBrand(event) {
                 );
             }
         )
+}
+
+
+function selectedModel(event){
+
+                    let tbody = document.getElementById("flavorTableBody");
+                if(tbody){
+                    tbody.remove();
+                }
+
+    let currentSelected = event.target.value;
+    let table = document.getElementById("flavorTable");
+    let tableBody = document.createElement("tbody");
+    let menthol = [];
+    let count = 0;
+    tableBody.id = "flavorTableBody"
+    table.append(tableBody);
+
+
+    fetch("https://raw.githubusercontent.com/smoketownpete/smoketownpete.github.io/refs/heads/main/flavors.json")
+    .then(response => response.json())
+    .then(data=>{
+       
+        data.forEach(element =>{
+            if(element.model == currentSelected){
+                let tableRow = tableBody.insertRow(count);
+                let newData = tableRow.insertCell();
+                
+                newData.textContent = element.flavor;
+
+                count = count+1
+            }
+        });
+    })
 }

@@ -2,6 +2,46 @@
 <html lang="en">
 
 <head>
+ <style media="print">
+  @page {
+  size: A4; /* Use 'letter' for US printers if needed */
+  margin: 0; /* No default margins */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#printArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: scale(1); /* Reset scale */
+}
+
+.DropDowns {
+  display: none !important; /* Hide dropdowns when printing */
+}
+
+ul, li {
+  font-size: 50px; /* Slightly smaller for better fit */
+  padding: 3px;
+  justify-content: center;
+}
+
+#flavorList li {
+  font-size: 25px;
+}
+</style>
+
   <meta charset="UTF-8" />
   <title>SMOKE TOWN!</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -19,12 +59,18 @@
       <select name="models" class="selectdd" id="distinct_model" onchange="selectedModel(event)">
         <option disabled selected value> -- select an option -- </option>
       </select>
+      <button onclick="printSection()" id="printBTN">Print</button>
     </div>
-    <div id="tableDiv">
-      <table id="flavorTable">
+    <div class="printable" id="printArea">
+    <div>
+      <h1 id="productName"></h1>
+    </div>
+    <div id="listDiv">
+      <ui id="flavorList">
         
-      </table>
+      </ui>
     </div>
+  </div>
   </div>
 
 
@@ -32,6 +78,7 @@
 
 
   <script src="disposables.js"></script>
+  
 </body>
 
 </html>

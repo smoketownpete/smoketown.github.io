@@ -1,34 +1,6 @@
 [
     {
         "model": "PULSE",
-        "flavor": "Fcuking Fab"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Frozen Cherry Apple"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Frozen Strawberry"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Frozen White Grape"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Frozen Blackberry Fab"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Frozen Watermelon"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Frozen Pina Colada"
-    },
-    {
-        "model": "PULSE",
         "flavor": "Sour Apple Ice"
     },
     {
@@ -45,6 +17,98 @@
     },
     {
         "model": "PULSE",
+        "flavor": "Watermelon Ice"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Mexico Mango"
+    },
+    {
+        "model": "PULSE X",
+        "flavor": "Sour Apple Ice"
+    },
+    {
+        "model": "PULSE X",
+        "flavor": "Watermelon Ice"
+    },
+    {
+        "model": "PULSE X",
+        "flavor": "Blue Razz Ice"
+    },
+    {
+        "model": "PULSE X",
+        "flavor": "Strawberry Kiwi Ice"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Artic Icy"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Blue Icy"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Peach Icy"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Berrymelon Icy"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Mongo Icy"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Sunshine Icy"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Menthol"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Sour Apple Icy"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Watermelon Icy"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Blue Razz Icy"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Peach Icy"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Sour Apple Ice"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Strawberry Ice"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Blue Razz Ice"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Juicy Peach Ice"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Watermelon Ice"
+    },
+    {
+        "model": "FOGER (KIT)",
+        "flavor": "Juicy Peach Ice"
+    },
+    {
+        "model": "FOGER (KIT)",
         "flavor": "Watermelon Ice"
     },
     {
@@ -76,16 +140,124 @@
         "flavor": "Cool Mintz"
     },
     {
+        "model": "PULSE X",
+        "flavor": "Miami Mint"
+    },
+    {
+        "model": "PULSE X",
+        "flavor": "Cool Mint"
+    },
+    {
+        "model": "PULSE X",
+        "flavor": "Alt Mint"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Blueberry Mint"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Icy Mint"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Cool Mint"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Spearmint"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Watermelon Lemon Mint"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Summer Glacier"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Cool Mint"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Miami Mint"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Spearmint Watermelon"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Miami Mint"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Cool Mint"
+    },
+    {
+        "model": "FOGER (POD ONLY)",
+        "flavor": "Gum Mint"
+    },
+    {
+        "model": "FOGER (KIT)",
+        "flavor": "Icy Mint"
+    },
+    {
+        "model": "FOGER (KIT)",
+        "flavor": "Gum Mint"
+    },
+    {
+        "model": "FOGER (KIT)",
+        "flavor": "Miami Mint"
+    },
+    {
+        "model": "FOGER (KIT)",
+        "flavor": "Cool Mint"
+    },
+    {
+        "model": "FOGER (KIT)",
+        "flavor": "Pepper Mint"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Frozen Cherry Apple"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Frozen Strawberry"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Frozen White Grape"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Frozen Blackberry Fab"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Frozen Watermelon"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Frozen Pina Colada"
+    },
+    {
+        "model": "MELLO",
+        "flavor": "Frozen Watermelon"
+    },
+    {
+        "model": "PULSE",
+        "flavor": "Fcuking Fab"
+    },
+    {
         "model": "PULSE",
         "flavor": "Grape B-Pop"
     },
     {
         "model": "PULSE",
         "flavor": "Strawberry Mango"
-    },
-    {
-        "model": "PULSE",
-        "flavor": "Mexico Mango"
     },
     {
         "model": "PULSE",
@@ -166,34 +338,6 @@
     {
         "model": "PULSE",
         "flavor": "Strawberry Savers"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Miami Mint"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Cool Mint"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Alt Mint"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Sour Apple Ice"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Watermelon Ice"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Blue Razz Ice"
-    },
-    {
-        "model": "PULSE X",
-        "flavor": "Strawberry Kiwi Ice"
     },
     {
         "model": "PULSE X",
@@ -305,58 +449,6 @@
     },
     {
         "model": "PEBBLE",
-        "flavor": "Artic Icy"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Blue Icy"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Peach Icy"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Berrymelon Icy"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Mongo Icy"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Sunshine Icy"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Blueberry Mint"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Icy Mint"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Cool Mint"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Spearmint"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Menthol"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Watermelon Lemon Mint"
-    },
-    {
-        "model": "PEBBLE",
-        "flavor": "Summer Glacier"
-    },
-    {
-        "model": "PEBBLE",
         "flavor": "Apple"
     },
     {
@@ -445,38 +537,6 @@
     },
     {
         "model": "MELLO",
-        "flavor": "Sour Apple Icy"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Watermelon Icy"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Blue Razz Icy"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Peach Icy"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Cool Mint"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Miami Mint"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Frozen Watermelon"
-    },
-    {
-        "model": "MELLO",
-        "flavor": "Spearmint Watermelon"
-    },
-    {
-        "model": "MELLO",
         "flavor": "Watermelon Peach Lime"
     },
     {
@@ -553,38 +613,6 @@
     },
     {
         "model": "FOGER (POD ONLY)",
-        "flavor": "Sour Apple Ice"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Strawberry Ice"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Blue Razz Ice"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Juicy Peach Ice"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Watermelon Ice"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Miami Mint"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Cool Mint"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
-        "flavor": "Gum Mint"
-    },
-    {
-        "model": "FOGER (POD ONLY)",
         "flavor": "Omg B-Pop"
     },
     {
@@ -650,34 +678,6 @@
     {
         "model": "FOGER (POD ONLY)",
         "flavor": "Clear"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Icy Mint"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Gum Mint"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Miami Mint"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Cool Mint"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Pepper Mint"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Juicy Peach Ice"
-    },
-    {
-        "model": "FOGER (KIT)",
-        "flavor": "Watermelon Ice"
     },
     {
         "model": "FOGER (KIT)",

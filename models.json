@@ -1,5 +1,13 @@
 [
     {
+        "brand": "GEEK BAR",
+        "model": "PULSE"
+    },
+    {
+        "brand": "GEEK BAR",
+        "model": "PULSE X"
+    },
+    {
         "brand": "FLUM",
         "model": "PEBBLE"
     },
@@ -16,11 +24,15 @@
         "model": "FOGER (KIT)"
     },
     {
-        "brand": "GEEK BAR",
-        "model": "PULSE"
+        "brand": "LOST MARY",
+        "model": "MO20000 PRO"
     },
     {
-        "brand": "GEEK BAR",
-        "model": "PULSE X"
+        "brand": "LOST MARY",
+        "model": "OS5000"
+    },
+    {
+        "brand": "LOST MARY",
+        "model": "MO5000"
     }
 ]

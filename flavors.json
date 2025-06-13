@@ -112,6 +112,22 @@
         "flavor": "Watermelon Ice"
     },
     {
+        "model": "MO20000 PRO",
+        "flavor": "Pineapple Ice"
+    },
+    {
+        "model": "MO20000 PRO",
+        "flavor": "Strawberry Ice"
+    },
+    {
+        "model": "MO20000 PRO",
+        "flavor": "watermelon Ice"
+    },
+    {
+        "model": "OS5000",
+        "flavor": "Spearmint"
+    },
+    {
         "model": "PULSE",
         "flavor": "Creamy Mintz"
     },
@@ -218,6 +234,10 @@
     {
         "model": "FOGER (KIT)",
         "flavor": "Pepper Mint"
+    },
+    {
+        "model": "MO20000 PRO",
+        "flavor": "Miami Mint"
     },
     {
         "model": "PULSE",
@@ -722,5 +742,21 @@
     {
         "model": "FOGER (KIT)",
         "flavor": "Blue Rancher B-Pop"
+    },
+    {
+        "model": "MO20000 PRO",
+        "flavor": "Dragon Drink"
+    },
+    {
+        "model": "MO20000 PRO",
+        "flavor": "Mongo Twist"
+    },
+    {
+        "model": "OS5000",
+        "flavor": "watermelon"
+    },
+    {
+        "model": "MO5000",
+        "flavor": "Pineapple Apple Pear"
     }
 ]

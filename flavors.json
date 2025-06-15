@@ -68,6 +68,10 @@
         "flavor": "Menthol"
     },
     {
+        "model": "PEBBLE",
+        "flavor": "Blue Razz Icy"
+    },
+    {
         "model": "MELLO",
         "flavor": "Sour Apple Icy"
     },
@@ -554,6 +558,14 @@
     {
         "model": "PEBBLE",
         "flavor": "Greeen Apple Watermelon"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Strawberry Apple"
+    },
+    {
+        "model": "PEBBLE",
+        "flavor": "Strawberry Banana"
     },
     {
         "model": "MELLO",

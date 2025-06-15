@@ -132,6 +132,18 @@
         "flavor": "Spearmint"
     },
     {
+        "model": "5000",
+        "flavor": "Mighty Mint"
+    },
+    {
+        "model": "5000",
+        "flavor": "Banana Freeze"
+    },
+    {
+        "model": "5000",
+        "flavor": "Peach Freeze"
+    },
+    {
         "model": "PULSE",
         "flavor": "Creamy Mintz"
     },
@@ -770,5 +782,21 @@
     {
         "model": "MO5000",
         "flavor": "Pineapple Apple Pear"
+    },
+    {
+        "model": "5000",
+        "flavor": "Strawberry Watermelon"
+    },
+    {
+        "model": "5000",
+        "flavor": "Strawberry Mango"
+    },
+    {
+        "model": "5000",
+        "flavor": "Naked Unflavored"
+    },
+    {
+        "model": "5000",
+        "flavor": "Virgina Tobacco"
     }
 ]
